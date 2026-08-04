@@ -86,7 +86,7 @@ export default function VirtualPreview() {
                         : "border-white/10 hover:border-white/25"
                     }`}
                   >
-                    {piece.image_url && <img src={piece.image_url} alt={piece.name} className="h-24 w-full object-cover" />}
+                    {piece.image_url && <img src={piece.image_url} alt={piece.name} loading="lazy" decoding="async" className="h-24 w-full object-cover" />}
                     <p className="text-xs p-2 text-white/70 truncate">{piece.name}</p>
                   </button>
                 ))}

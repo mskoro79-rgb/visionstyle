@@ -4,4 +4,5 @@ __pycache__/
 .env
 app/data/uploads/
 app/data/previews/
+app/data/inventory_images/
 .pytest_cache/

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Camera, Download, RefreshCcw, Sparkles, Layers } from "lucide-react";
+import { Camera, Download, RefreshCcw, Sparkles, Layers, FileText, SplitSquareHorizontal } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
 import GlassCard from "@/components/ui/GlassCard";
 import Button from "@/components/ui/Button";
@@ -10,13 +10,42 @@ import ScoreRing from "@/components/ui/ScoreRing";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Loader from "@/components/ui/Loader";
 import { useSession } from "@/context/SessionContext";
-import { downloadReportUrl, getDashboard, resolveMediaUrl } from "@/services/api";
+import { downloadReportPdfUrl, downloadReportUrl, getDashboard, resolveMediaUrl } from "@/services/api";
 import type { DashboardReport } from "@/types";
+
+function BeforeAfterView({ beforeUrl, afterUrl }: { beforeUrl: string; afterUrl: string }) {
+  const [split, setSplit] = useState(50);
+  return (
+    <div className="relative rounded-xl overflow-hidden select-none" style={{ aspectRatio: "3/4" }}>
+      <img src={afterUrl} alt="After — outfit preview" className="absolute inset-0 h-full w-full object-cover" />
+      <img
+        src={beforeUrl}
+        alt="Before — original photo"
+        className="absolute inset-0 h-full w-full object-cover"
+        style={{ clipPath: `inset(0 ${100 - split}% 0 0)` }}
+      />
+      <div className="absolute inset-y-0 pointer-events-none" style={{ left: `${split}%` }}>
+        <div className="w-0.5 h-full bg-gilt-400" />
+      </div>
+      <input
+        type="range"
+        min={0}
+        max={100}
+        value={split}
+        onChange={(e) => setSplit(Number(e.target.value))}
+        className="absolute bottom-3 left-1/2 -translate-x-1/2 w-3/4 accent-gilt-400"
+      />
+      <span className="absolute top-2 left-2 text-[10px] bg-black/60 text-white px-2 py-0.5 rounded">Before</span>
+      <span className="absolute top-2 right-2 text-[10px] bg-black/60 text-white px-2 py-0.5 rounded">After</span>
+    </div>
+  );
+}
 
 export default function Dashboard() {
   const { sessionId, resetSession } = useSession();
   const [report, setReport] = useState<DashboardReport | null>(null);
   const [loading, setLoading] = useState(true);
+  const [showBeforeAfter, setShowBeforeAfter] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -44,11 +73,18 @@ export default function Dashboard() {
         />
         <div className="flex gap-3">
           {report?.analysis && (
-            <a href={downloadReportUrl(sessionId)} download>
-              <Button variant="secondary">
-                <Download className="h-4 w-4" /> Download Report
-              </Button>
-            </a>
+            <>
+              <a href={downloadReportPdfUrl(sessionId)} download>
+                <Button variant="secondary">
+                  <FileText className="h-4 w-4" /> PDF Report
+                </Button>
+              </a>
+              <a href={downloadReportUrl(sessionId)} download>
+                <Button variant="secondary">
+                  <Download className="h-4 w-4" /> JSON
+                </Button>
+              </a>
+            </>
           )}
           <Button variant="ghost" onClick={resetSession}>
             <RefreshCcw className="h-4 w-4" /> New Session
@@ -106,40 +142,72 @@ export default function Dashboard() {
             </GlassCard>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {report.analysis.image_url && report.latest_preview ? (
             <GlassCard>
-              <h3 className="text-lg font-semibold text-white mb-4">Current Session Photo</h3>
-              {report.analysis.image_url ? (
-                <img
-                  src={resolveMediaUrl(report.analysis.image_url)}
-                  alt="Session"
-                  className="rounded-xl w-full max-h-72 object-cover"
-                />
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-lg font-semibold text-white flex items-center gap-2">
+                  <SplitSquareHorizontal className="h-5 w-5 text-jade-400" /> Before vs After
+                </h3>
+                <Button size="sm" variant="ghost" onClick={() => setShowBeforeAfter((v) => !v)}>
+                  {showBeforeAfter ? "Side-by-side view" : "Slider view"}
+                </Button>
+              </div>
+              {showBeforeAfter ? (
+                <div className="max-w-md mx-auto">
+                  <BeforeAfterView
+                    beforeUrl={resolveMediaUrl(report.analysis.image_url)}
+                    afterUrl={resolveMediaUrl(report.latest_preview.preview_image_url)}
+                  />
+                </div>
               ) : (
-                <p className="text-white/40 text-sm">No image on file.</p>
-              )}
-            </GlassCard>
-
-            <GlassCard>
-              <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
-                <Layers className="h-5 w-5 text-jade-400" /> Outfit Preview
-              </h3>
-              {report.latest_preview ? (
-                <img
-                  src={resolveMediaUrl(report.latest_preview.preview_image_url)}
-                  alt="Preview"
-                  className="rounded-xl w-full max-h-72 object-contain bg-black/20"
-                />
-              ) : (
-                <div className="text-center py-10">
-                  <p className="text-white/40 text-sm mb-4">No virtual preview generated yet.</p>
-                  <Link to="/virtual-preview">
-                    <Button variant="secondary" size="sm">Generate Preview</Button>
-                  </Link>
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <p className="text-xs text-white/40 mb-2 text-center">Before</p>
+                    <img src={resolveMediaUrl(report.analysis.image_url)} alt="Original" className="rounded-xl w-full max-h-72 object-cover" />
+                  </div>
+                  <div>
+                    <p className="text-xs text-white/40 mb-2 text-center">After</p>
+                    <img src={resolveMediaUrl(report.latest_preview.preview_image_url)} alt="Preview" className="rounded-xl w-full max-h-72 object-cover bg-black/20" />
+                  </div>
                 </div>
               )}
             </GlassCard>
-          </div>
+          ) : (
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              <GlassCard>
+                <h3 className="text-lg font-semibold text-white mb-4">Current Session Photo</h3>
+                {report.analysis.image_url ? (
+                  <img
+                    src={resolveMediaUrl(report.analysis.image_url)}
+                    alt="Session"
+                    className="rounded-xl w-full max-h-72 object-cover"
+                  />
+                ) : (
+                  <p className="text-white/40 text-sm">No image on file.</p>
+                )}
+              </GlassCard>
+
+              <GlassCard>
+                <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+                  <Layers className="h-5 w-5 text-jade-400" /> Outfit Preview
+                </h3>
+                {report.latest_preview ? (
+                  <img
+                    src={resolveMediaUrl(report.latest_preview.preview_image_url)}
+                    alt="Preview"
+                    className="rounded-xl w-full max-h-72 object-contain bg-black/20"
+                  />
+                ) : (
+                  <div className="text-center py-10">
+                    <p className="text-white/40 text-sm mb-4">No virtual preview generated yet.</p>
+                    <Link to="/virtual-preview">
+                      <Button variant="secondary" size="sm">Generate Preview</Button>
+                    </Link>
+                  </div>
+                )}
+              </GlassCard>
+            </div>
+          )}
 
           <GlassCard glow="ember">
             <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">

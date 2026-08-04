@@ -50,6 +50,11 @@ class MongoManager:
         await self.db.recommendations.create_index("session_id")
         await self.db.catalog_items.create_index("category")
         await self.db.catalog_items.create_index("sku", unique=True)
+        await self.db.owners.create_index("email", unique=True)
+        await self.db.inventory_items.create_index("sku", unique=True)
+        await self.db.inventory_items.create_index("category")
+        await self.db.inventory_items.create_index("rack_number")
+        await self.db.outfit_ratings.create_index([("session_id", 1), ("recommendation_id", 1)], unique=True)
 
     async def disconnect(self) -> None:
         if self.client is not None:

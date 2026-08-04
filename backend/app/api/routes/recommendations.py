@@ -5,7 +5,8 @@ from fastapi import APIRouter, Depends, HTTPException
 from motor.motor_asyncio import AsyncIOMotorDatabase
 
 from app.core.database import get_database
-from app.models.schemas import RecommendationRequest, RecommendationResponse
+from app.models.schemas import OutfitRatingRequest, RecommendationRequest, RecommendationResponse
+from app.services.rating_service import rating_service
 from app.services.recommendation.engine import recommendation_engine
 from app.services.session_service import session_service
 
@@ -31,4 +32,15 @@ async def get_latest_recommendation(session_id: str, db: AsyncIOMotorDatabase | 
     result = await session_service.get_latest_recommendation_for_session(db, session_id)
     if result is None:
         raise HTTPException(status_code=404, detail="No recommendation found for this session")
+    for rec in result.recommendations:
+        rec.rating, rec.rating_count = await rating_service.get_rating_stats(db, rec.recommendation_id)
     return result
+
+
+@router.post("/rate")
+async def rate_recommendation(payload: OutfitRatingRequest, db: AsyncIOMotorDatabase | None = Depends(get_database)):
+    """Phase 12 — session-only outfit rating; also the raw signal a future
+    feedback-learning loop (Phase 14) would train on."""
+    await rating_service.rate(db, payload.session_id, payload.recommendation_id, payload.rating)
+    avg, count = await rating_service.get_rating_stats(db, payload.recommendation_id)
+    return {"recommendation_id": payload.recommendation_id, "average_rating": avg, "rating_count": count}

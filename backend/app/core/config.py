@@ -39,6 +39,21 @@ class Settings(BaseSettings):
     # "idm_vton" | "catvton" | "stable_viton" = future pluggable diffusion-based engines
     VTON_ENGINE: str = "composite"
 
+    # Owner authentication (JWT). There is no end-user/shopper auth in this
+    # product — only the showroom owner authenticates, to manage inventory.
+    JWT_SECRET_KEY: str = "dev-only-insecure-secret-change-me-in-.env"
+    JWT_ALGORITHM: str = "HS256"
+    JWT_EXPIRE_MINUTES: int = 60 * 12  # 12 hours
+
+    # Bootstrap owner account. On startup, if no owner exists in the
+    # `owners` collection (or in-memory fallback store), one is created
+    # from these credentials. Change them via .env before first run.
+    OWNER_BOOTSTRAP_EMAIL: str = "owner@visionstyle.ai"
+    OWNER_BOOTSTRAP_PASSWORD: str = "ChangeMe123!"
+
+    # Inventory
+    INVENTORY_IMAGE_DIR: str = "app/data/inventory_images"
+
 
 @lru_cache
 def get_settings() -> Settings:

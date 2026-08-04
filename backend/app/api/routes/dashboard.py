@@ -10,6 +10,7 @@ from motor.motor_asyncio import AsyncIOMotorDatabase
 
 from app.core.database import get_database
 from app.models.schemas import DashboardReport
+from app.services.pdf_report_service import build_dashboard_pdf
 from app.services.session_service import session_service
 
 router = APIRouter(prefix="/dashboard", tags=["Dashboard"])
@@ -52,4 +53,15 @@ async def download_report(session_id: str, db: AsyncIOMotorDatabase | None = Dep
         io.BytesIO(payload),
         media_type="application/json",
         headers={"Content-Disposition": f"attachment; filename=visionstyle-report-{session_id}.json"},
+    )
+
+
+@router.get("/session/{session_id}/report.pdf")
+async def download_report_pdf(session_id: str, db: AsyncIOMotorDatabase | None = Depends(get_database)):
+    report = await get_dashboard(session_id, db)
+    pdf_bytes = build_dashboard_pdf(report)
+    return StreamingResponse(
+        io.BytesIO(pdf_bytes),
+        media_type="application/pdf",
+        headers={"Content-Disposition": f"attachment; filename=visionstyle-report-{session_id}.pdf"},
     )

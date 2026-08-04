@@ -195,6 +195,16 @@ class OutfitPiece(BaseModel):
     reason: str
 
 
+class ScoreBreakdown(BaseModel):
+    """Phase 12 — transparent sub-scores backing the AI Explanation Panel."""
+
+    fashion_score: float
+    color_harmony_score: float
+    body_fit_score: float
+    occasion_match_score: float
+    explanation: List[str] = Field(default_factory=list)
+
+
 class RecommendationItem(BaseModel):
     recommendation_id: str
     title: str
@@ -205,6 +215,9 @@ class RecommendationItem(BaseModel):
     accessories: List[OutfitPiece]
     footwear: List[OutfitPiece]
     fashion_tips: List[str]
+    scores: ScoreBreakdown
+    rating: Optional[float] = None
+    rating_count: int = 0
 
 
 class RecommendationResponse(BaseModel):
@@ -216,9 +229,20 @@ class RecommendationResponse(BaseModel):
     overall_reasoning: str
 
 
+class OutfitRatingRequest(BaseModel):
+    session_id: str
+    recommendation_id: str
+    rating: float = Field(ge=1, le=5)
+
+
 # ---------------------------------------------------------------------------
 # Catalog
 # ---------------------------------------------------------------------------
+
+class CatalogSource(str, Enum):
+    CATALOG = "catalog"  # preloaded, built-in showroom catalog
+    INVENTORY = "inventory"  # owner-added, live inventory
+
 
 class CatalogItem(BaseModel):
     sku: str
@@ -229,6 +253,7 @@ class CatalogItem(BaseModel):
     currency: str = "USD"
     colors: List[str] = Field(default_factory=list)
     image_url: str
+    images: List[str] = Field(default_factory=list)
     gender: Gender = Gender.UNISEX
     styles: List[StylePreference] = Field(default_factory=list)
     occasions: List[Occasion] = Field(default_factory=list)
@@ -237,6 +262,65 @@ class CatalogItem(BaseModel):
     face_shape_fit: List[FaceShape] = Field(default_factory=list)
     body_shape_fit: List[BodyShape] = Field(default_factory=list)
     active: bool = True
+
+    # Phase 8 — owner inventory fields (also present, with sane defaults,
+    # on preloaded catalog items so both pools share one schema).
+    source: CatalogSource = CatalogSource.CATALOG
+    rack_number: Optional[str] = None
+    sizes: List[str] = Field(default_factory=list)
+    stock_quantity: int = 0
+    available: bool = True
+
+
+class InventoryItemCreate(BaseModel):
+    category: str
+    name: str
+    brand: Optional[str] = None
+    price: float
+    currency: str = "USD"
+    colors: List[str] = Field(default_factory=list)
+    gender: Gender = Gender.UNISEX
+    styles: List[StylePreference] = Field(default_factory=list)
+    occasions: List[Occasion] = Field(default_factory=list)
+    seasons: List[Season] = Field(default_factory=list)
+    budget_tier: BudgetTier = BudgetTier.MID_RANGE
+    face_shape_fit: List[FaceShape] = Field(default_factory=list)
+    body_shape_fit: List[BodyShape] = Field(default_factory=list)
+    rack_number: Optional[str] = None
+    sizes: List[str] = Field(default_factory=list)
+    stock_quantity: int = 0
+    available: bool = True
+
+
+class InventoryItemUpdate(BaseModel):
+    category: Optional[str] = None
+    name: Optional[str] = None
+    brand: Optional[str] = None
+    price: Optional[float] = None
+    colors: Optional[List[str]] = None
+    gender: Optional[Gender] = None
+    styles: Optional[List[StylePreference]] = None
+    occasions: Optional[List[Occasion]] = None
+    seasons: Optional[List[Season]] = None
+    budget_tier: Optional[BudgetTier] = None
+    face_shape_fit: Optional[List[FaceShape]] = None
+    body_shape_fit: Optional[List[BodyShape]] = None
+    rack_number: Optional[str] = None
+    sizes: Optional[List[str]] = None
+    stock_quantity: Optional[int] = None
+    available: Optional[bool] = None
+    active: Optional[bool] = None
+
+
+class InventoryStats(BaseModel):
+    total_items: int
+    active_items: int
+    available_items: int
+    out_of_stock_items: int
+    by_category: dict[str, int]
+    by_brand: dict[str, int]
+    by_rack: dict[str, int]
+    total_stock_units: int
 
 
 # ---------------------------------------------------------------------------
@@ -269,3 +353,41 @@ class DashboardReport(BaseModel):
     latest_recommendation: Optional[RecommendationResponse] = None
     latest_preview: Optional[OutfitPreviewResponse] = None
     ai_score: float
+
+
+# ---------------------------------------------------------------------------
+# Owner Authentication (Phase 7) — owner-only, no shopper accounts exist.
+# ---------------------------------------------------------------------------
+
+class OwnerLoginRequest(BaseModel):
+    email: str
+    password: str
+
+
+class OwnerTokenResponse(BaseModel):
+    access_token: str
+    token_type: str = "bearer"
+    expires_at: datetime
+    owner_email: str
+
+
+class OwnerProfile(BaseModel):
+    email: str
+    display_name: str = "Showroom Owner"
+
+
+# ---------------------------------------------------------------------------
+# Analytics (Phase 10)
+# ---------------------------------------------------------------------------
+
+class AnalyticsSummary(BaseModel):
+    total_analyses: int
+    total_recommendations: int
+    most_recommended_colors: List[dict] = Field(default_factory=list)
+    most_recommended_brands: List[dict] = Field(default_factory=list)
+    most_recommended_categories: List[dict] = Field(default_factory=list)
+    popular_face_shapes: List[dict] = Field(default_factory=list)
+    popular_body_shapes: List[dict] = Field(default_factory=list)
+    recommendation_accuracy: float
+    average_rating: Optional[float] = None
+    inventory_status: InventoryStats

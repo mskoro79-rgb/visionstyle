@@ -9,7 +9,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
-from app.api.routes import analysis, catalog, dashboard, preview, recommendations
+from app.api.routes import analysis, analytics, auth, catalog, dashboard, inventory, preview, recommendations
 from app.core.config import get_settings
 from app.core.database import mongo_manager
 
@@ -20,11 +20,16 @@ settings = get_settings()
 
 Path(settings.UPLOAD_DIR).mkdir(parents=True, exist_ok=True)
 Path(settings.OUTFIT_PREVIEW_DIR).mkdir(parents=True, exist_ok=True)
+Path(settings.INVENTORY_IMAGE_DIR).mkdir(parents=True, exist_ok=True)
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     await mongo_manager.connect()
+
+    from app.services.owner_service import bootstrap_owner
+
+    await bootstrap_owner(mongo_manager.get_db())
 
     if mongo_manager.connected:
         from app.services.catalog_service import catalog_service
@@ -54,12 +59,16 @@ app.add_middleware(
 
 app.mount("/media/uploads", StaticFiles(directory=settings.UPLOAD_DIR), name="uploads")
 app.mount("/media/previews", StaticFiles(directory=settings.OUTFIT_PREVIEW_DIR), name="previews")
+app.mount("/media/inventory", StaticFiles(directory=settings.INVENTORY_IMAGE_DIR), name="inventory-images")
 
+app.include_router(auth.router, prefix=settings.API_V1_PREFIX)
 app.include_router(analysis.router, prefix=settings.API_V1_PREFIX)
 app.include_router(recommendations.router, prefix=settings.API_V1_PREFIX)
 app.include_router(catalog.router, prefix=settings.API_V1_PREFIX)
+app.include_router(inventory.router, prefix=settings.API_V1_PREFIX)
 app.include_router(preview.router, prefix=settings.API_V1_PREFIX)
 app.include_router(dashboard.router, prefix=settings.API_V1_PREFIX)
+app.include_router(analytics.router, prefix=settings.API_V1_PREFIX)
 
 
 @app.get("/api/health")

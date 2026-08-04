@@ -100,6 +100,14 @@ export interface OutfitPiece {
   reason: string;
 }
 
+export interface ScoreBreakdown {
+  fashion_score: number;
+  color_harmony_score: number;
+  body_fit_score: number;
+  occasion_match_score: number;
+  explanation: string[];
+}
+
 export interface RecommendationItem {
   recommendation_id: string;
   title: string;
@@ -110,6 +118,9 @@ export interface RecommendationItem {
   accessories: OutfitPiece[];
   footwear: OutfitPiece[];
   fashion_tips: string[];
+  scores: ScoreBreakdown;
+  rating: number | null;
+  rating_count: number;
 }
 
 export interface RecommendationRequest {
@@ -131,6 +142,8 @@ export interface RecommendationResponse {
   overall_reasoning: string;
 }
 
+export type CatalogSource = "catalog" | "inventory";
+
 export interface CatalogItem {
   sku: string;
   category: string;
@@ -140,6 +153,7 @@ export interface CatalogItem {
   currency: string;
   colors: string[];
   image_url: string;
+  images: string[];
   gender: Gender;
   styles: StylePreference[];
   occasions: Occasion[];
@@ -148,6 +162,62 @@ export interface CatalogItem {
   face_shape_fit: FaceShape[];
   body_shape_fit: BodyShape[];
   active: boolean;
+  source: CatalogSource;
+  rack_number: string | null;
+  sizes: string[];
+  stock_quantity: number;
+  available: boolean;
+}
+
+export interface InventoryItemCreate {
+  category: string;
+  name: string;
+  brand?: string;
+  price: number;
+  currency?: string;
+  colors: string[];
+  gender: Gender;
+  styles: StylePreference[];
+  occasions: Occasion[];
+  seasons: Season[];
+  budget_tier: BudgetTier;
+  face_shape_fit: FaceShape[];
+  body_shape_fit: BodyShape[];
+  rack_number?: string;
+  sizes: string[];
+  stock_quantity: number;
+  available: boolean;
+}
+
+export interface InventoryItemUpdate {
+  category?: string;
+  name?: string;
+  brand?: string;
+  price?: number;
+  colors?: string[];
+  gender?: Gender;
+  styles?: StylePreference[];
+  occasions?: Occasion[];
+  seasons?: Season[];
+  budget_tier?: BudgetTier;
+  face_shape_fit?: FaceShape[];
+  body_shape_fit?: BodyShape[];
+  rack_number?: string;
+  sizes?: string[];
+  stock_quantity?: number;
+  available?: boolean;
+  active?: boolean;
+}
+
+export interface InventoryStats {
+  total_items: number;
+  active_items: number;
+  available_items: number;
+  out_of_stock_items: number;
+  by_category: Record<string, number>;
+  by_brand: Record<string, number>;
+  by_rack: Record<string, number>;
+  total_stock_units: number;
 }
 
 export interface OutfitPreviewResponse {
@@ -166,4 +236,34 @@ export interface DashboardReport {
   latest_recommendation: RecommendationResponse | null;
   latest_preview: OutfitPreviewResponse | null;
   ai_score: number;
+}
+
+export interface OwnerTokenResponse {
+  access_token: string;
+  token_type: string;
+  expires_at: string;
+  owner_email: string;
+}
+
+export interface OwnerProfile {
+  email: string;
+  display_name: string;
+}
+
+export interface NameCount {
+  name: string;
+  count: number;
+}
+
+export interface AnalyticsSummary {
+  total_analyses: number;
+  total_recommendations: number;
+  most_recommended_colors: NameCount[];
+  most_recommended_brands: NameCount[];
+  most_recommended_categories: NameCount[];
+  popular_face_shapes: NameCount[];
+  popular_body_shapes: NameCount[];
+  recommendation_accuracy: number;
+  average_rating: number | null;
+  inventory_status: InventoryStats;
 }

@@ -49,6 +49,28 @@ class SessionService:
         candidates.sort(key=lambda d: d["created_at"], reverse=True)
         return AnalysisResult(**candidates[0])
 
+    async def list_all_analyses(self, db: Optional[AsyncIOMotorDatabase], limit: int = 2000) -> list[AnalysisResult]:
+        """Phase 10 — full analysis history for analytics aggregation (not session-scoped)."""
+        if db is not None:
+            docs = await db.analyses.find({}).sort("created_at", -1).to_list(length=limit)
+            return [AnalysisResult(**{k: v for k, v in doc.items() if k != "_id"}) for doc in docs]
+        docs = list(_in_memory_store["analyses"].values())
+        docs.sort(key=lambda d: d["created_at"], reverse=True)
+        return [AnalysisResult(**d) for d in docs[:limit]]
+
+    async def list_all_recommendations(
+        self, db: Optional[AsyncIOMotorDatabase], limit: int = 2000
+    ) -> list[RecommendationResponse]:
+        """Phase 10 — full recommendation history for analytics aggregation (not session-scoped)."""
+        if db is not None:
+            docs = await db.recommendations.find({}).sort("generated_at", -1).to_list(length=limit)
+            return [
+                RecommendationResponse(**{k: v for k, v in doc.items() if k not in ("_id", "_key")}) for doc in docs
+            ]
+        docs = list(_in_memory_store["recommendations"].values())
+        docs.sort(key=lambda d: d["generated_at"], reverse=True)
+        return [RecommendationResponse(**d) for d in docs[:limit]]
+
     async def save_recommendation(self, db: Optional[AsyncIOMotorDatabase], recommendation: RecommendationResponse) -> None:
         doc = recommendation.model_dump(mode="json")
         key = f"{recommendation.session_id}:{recommendation.analysis_id}"

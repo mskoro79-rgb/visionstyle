@@ -1,8 +1,10 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
-import type { AnalysisResult, RecommendationResponse, OutfitPreviewResponse } from "@/types";
+import type { AnalysisResult, RecommendationResponse, OutfitPreviewResponse, CatalogItem } from "@/types";
 import { getLatestAnalysis, getLatestRecommendation, getLatestPreview } from "@/services/api";
 
 const SESSION_STORAGE_KEY = "visionstyle_session_id";
+const RECENTLY_VIEWED_KEY = "visionstyle_recently_viewed"; // sessionStorage — cleared when the tab closes
+const RECENTLY_VIEWED_LIMIT = 12;
 
 function generateSessionId(): string {
   return `sess_${crypto.randomUUID().replace(/-/g, "")}`;
@@ -17,6 +19,8 @@ interface SessionContextValue {
   setRecommendation: (r: RecommendationResponse | null) => void;
   setPreview: (p: OutfitPreviewResponse | null) => void;
   resetSession: () => void;
+  recentlyViewed: CatalogItem[];
+  addRecentlyViewed: (item: CatalogItem) => void;
 }
 
 const SessionContext = createContext<SessionContextValue | undefined>(undefined);
@@ -33,6 +37,26 @@ export function SessionProvider({ children }: { children: ReactNode }) {
   const [analysis, setAnalysis] = useState<AnalysisResult | null>(null);
   const [recommendation, setRecommendation] = useState<RecommendationResponse | null>(null);
   const [preview, setPreview] = useState<OutfitPreviewResponse | null>(null);
+  const [recentlyViewed, setRecentlyViewed] = useState<CatalogItem[]>(() => {
+    try {
+      const raw = sessionStorage.getItem(RECENTLY_VIEWED_KEY);
+      return raw ? (JSON.parse(raw) as CatalogItem[]) : [];
+    } catch {
+      return [];
+    }
+  });
+
+  const addRecentlyViewed = (item: CatalogItem) => {
+    setRecentlyViewed((prev) => {
+      const next = [item, ...prev.filter((i) => i.sku !== item.sku)].slice(0, RECENTLY_VIEWED_LIMIT);
+      try {
+        sessionStorage.setItem(RECENTLY_VIEWED_KEY, JSON.stringify(next));
+      } catch {
+        // sessionStorage unavailable — in-memory state still updates for this tab
+      }
+      return next;
+    });
+  };
 
   useEffect(() => {
     localStorage.setItem(SESSION_STORAGE_KEY, sessionId);
@@ -77,8 +101,10 @@ export function SessionProvider({ children }: { children: ReactNode }) {
       setRecommendation,
       setPreview,
       resetSession,
+      recentlyViewed,
+      addRecentlyViewed,
     }),
-    [sessionId, analysis, recommendation, preview]
+    [sessionId, analysis, recommendation, preview, recentlyViewed]
   );
 
   return <SessionContext.Provider value={value}>{children}</SessionContext.Provider>;
