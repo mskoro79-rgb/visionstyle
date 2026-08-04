@@ -1,0 +1,4322 @@
+[
+  {
+    "sku": "VS-SHI-0001",
+    "category": "shirts",
+    "name": "Navy Oxford Shirt",
+    "brand": "Uniform Basics",
+    "price": 26.1,
+    "currency": "USD",
+    "colors": [
+      "Navy",
+      "Ivory"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-1/600/800",
+    "gender": "male",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHI-0002",
+    "category": "shirts",
+    "name": "Emerald Oxford Shirt",
+    "brand": "Atlas Studio",
+    "price": 100.5,
+    "currency": "USD",
+    "colors": [
+      "Emerald",
+      "Burgundy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-2/600/800",
+    "gender": "female",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHI-0003",
+    "category": "shirts",
+    "name": "Crimson Oxford Shirt",
+    "brand": "Blackwood & Vane",
+    "price": 145.3,
+    "currency": "USD",
+    "colors": [
+      "Crimson",
+      "Olive"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-3/600/800",
+    "gender": "unisex",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHI-0004",
+    "category": "shirts",
+    "name": "Gold Linen Shirt",
+    "brand": "Meridian & Co.",
+    "price": 81.0,
+    "currency": "USD",
+    "colors": [
+      "Gold",
+      "Purple"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-4/600/800",
+    "gender": "female",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHI-0005",
+    "category": "shirts",
+    "name": "Charcoal Linen Shirt",
+    "brand": "Aurelio",
+    "price": 315.5,
+    "currency": "USD",
+    "colors": [
+      "Charcoal",
+      "Black"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-5/600/800",
+    "gender": "unisex",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHI-0006",
+    "category": "shirts",
+    "name": "Ivory Linen Shirt",
+    "brand": "Obsidian House",
+    "price": 537.0,
+    "currency": "USD",
+    "colors": [
+      "Ivory",
+      "Navy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-6/600/800",
+    "gender": "male",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHI-0007",
+    "category": "shirts",
+    "name": "Burgundy Flannel Shirt",
+    "brand": "Ferro Milano",
+    "price": 255.7,
+    "currency": "USD",
+    "colors": [
+      "Burgundy",
+      "Emerald"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-7/600/800",
+    "gender": "unisex",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHI-0008",
+    "category": "shirts",
+    "name": "Olive Flannel Shirt",
+    "brand": "Maison Vireux",
+    "price": 1166.0,
+    "currency": "USD",
+    "colors": [
+      "Olive",
+      "Crimson"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-8/600/800",
+    "gender": "male",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHI-0009",
+    "category": "shirts",
+    "name": "Purple Flannel Shirt",
+    "brand": "CoreWear",
+    "price": 24.9,
+    "currency": "USD",
+    "colors": [
+      "Purple",
+      "Gold"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-9/600/800",
+    "gender": "female",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHI-0010",
+    "category": "shirts",
+    "name": "Black Poplin Shirt",
+    "brand": "Casa Lorenzo",
+    "price": 945.0,
+    "currency": "USD",
+    "colors": [
+      "Black",
+      "Charcoal"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-10/600/800",
+    "gender": "male",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHI-0011",
+    "category": "shirts",
+    "name": "Navy Poplin Shirt",
+    "brand": "StreetLine",
+    "price": 17.1,
+    "currency": "USD",
+    "colors": [
+      "Navy",
+      "Ivory"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-11/600/800",
+    "gender": "female",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHI-0012",
+    "category": "shirts",
+    "name": "Emerald Poplin Shirt",
+    "brand": "Norvell",
+    "price": 78.0,
+    "currency": "USD",
+    "colors": [
+      "Emerald",
+      "Burgundy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-12/600/800",
+    "gender": "unisex",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHI-0013",
+    "category": "shirts",
+    "name": "Crimson Denim Shirt",
+    "brand": "Uniform Basics",
+    "price": 39.3,
+    "currency": "USD",
+    "colors": [
+      "Crimson",
+      "Olive"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-13/600/800",
+    "gender": "female",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHI-0014",
+    "category": "shirts",
+    "name": "Gold Denim Shirt",
+    "brand": "Atlas Studio",
+    "price": 58.5,
+    "currency": "USD",
+    "colors": [
+      "Gold",
+      "Purple"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-14/600/800",
+    "gender": "unisex",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHI-0015",
+    "category": "shirts",
+    "name": "Charcoal Denim Shirt",
+    "brand": "Blackwood & Vane",
+    "price": 246.5,
+    "currency": "USD",
+    "colors": [
+      "Charcoal",
+      "Black"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shirts-15/600/800",
+    "gender": "male",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0016",
+    "category": "tshirts",
+    "name": "Ivory Crew Neck Tee",
+    "brand": "Uniform Basics",
+    "price": 42.6,
+    "currency": "USD",
+    "colors": [
+      "Ivory",
+      "Navy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-16/600/800",
+    "gender": "male",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0017",
+    "category": "tshirts",
+    "name": "Burgundy Crew Neck Tee",
+    "brand": "Atlas Studio",
+    "price": 66.75,
+    "currency": "USD",
+    "colors": [
+      "Burgundy",
+      "Emerald"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-17/600/800",
+    "gender": "female",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0018",
+    "category": "tshirts",
+    "name": "Olive Crew Neck Tee",
+    "brand": "Blackwood & Vane",
+    "price": 271.8,
+    "currency": "USD",
+    "colors": [
+      "Olive",
+      "Crimson"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-18/600/800",
+    "gender": "unisex",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0019",
+    "category": "tshirts",
+    "name": "Purple V-Neck Tee",
+    "brand": "Meridian & Co.",
+    "price": 47.25,
+    "currency": "USD",
+    "colors": [
+      "Purple",
+      "Gold"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-19/600/800",
+    "gender": "female",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0020",
+    "category": "tshirts",
+    "name": "Black V-Neck Tee",
+    "brand": "Aurelio",
+    "price": 212.0,
+    "currency": "USD",
+    "colors": [
+      "Black",
+      "Charcoal"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-20/600/800",
+    "gender": "unisex",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0021",
+    "category": "tshirts",
+    "name": "Navy V-Neck Tee",
+    "brand": "Obsidian House",
+    "price": 1004.5,
+    "currency": "USD",
+    "colors": [
+      "Navy",
+      "Ivory"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-21/600/800",
+    "gender": "male",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0022",
+    "category": "tshirts",
+    "name": "Emerald Henley Tee",
+    "brand": "Ferro Milano",
+    "price": 152.2,
+    "currency": "USD",
+    "colors": [
+      "Emerald",
+      "Burgundy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-22/600/800",
+    "gender": "unisex",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0023",
+    "category": "tshirts",
+    "name": "Crimson Henley Tee",
+    "brand": "Maison Vireux",
+    "price": 783.5,
+    "currency": "USD",
+    "colors": [
+      "Crimson",
+      "Olive"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-23/600/800",
+    "gender": "male",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0024",
+    "category": "tshirts",
+    "name": "Gold Henley Tee",
+    "brand": "CoreWear",
+    "price": 41.4,
+    "currency": "USD",
+    "colors": [
+      "Gold",
+      "Purple"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-24/600/800",
+    "gender": "female",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0025",
+    "category": "tshirts",
+    "name": "Charcoal Graphic Tee",
+    "brand": "Casa Lorenzo",
+    "price": 562.5,
+    "currency": "USD",
+    "colors": [
+      "Charcoal",
+      "Black"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-25/600/800",
+    "gender": "male",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0026",
+    "category": "tshirts",
+    "name": "Ivory Graphic Tee",
+    "brand": "StreetLine",
+    "price": 33.6,
+    "currency": "USD",
+    "colors": [
+      "Ivory",
+      "Navy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-26/600/800",
+    "gender": "female",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0027",
+    "category": "tshirts",
+    "name": "Burgundy Graphic Tee",
+    "brand": "Norvell",
+    "price": 119.25,
+    "currency": "USD",
+    "colors": [
+      "Burgundy",
+      "Emerald"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-27/600/800",
+    "gender": "unisex",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0028",
+    "category": "tshirts",
+    "name": "Olive Ribbed Tee",
+    "brand": "Uniform Basics",
+    "price": 25.8,
+    "currency": "USD",
+    "colors": [
+      "Olive",
+      "Crimson"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-28/600/800",
+    "gender": "female",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0029",
+    "category": "tshirts",
+    "name": "Purple Ribbed Tee",
+    "brand": "Atlas Studio",
+    "price": 99.75,
+    "currency": "USD",
+    "colors": [
+      "Purple",
+      "Gold"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-29/600/800",
+    "gender": "unisex",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-TSH-0030",
+    "category": "tshirts",
+    "name": "Black Ribbed Tee",
+    "brand": "Blackwood & Vane",
+    "price": 143.0,
+    "currency": "USD",
+    "colors": [
+      "Black",
+      "Charcoal"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-tshirts-30/600/800",
+    "gender": "male",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0031",
+    "category": "pants",
+    "name": "Navy Tailored Trousers",
+    "brand": "Uniform Basics",
+    "price": 29.1,
+    "currency": "USD",
+    "colors": [
+      "Navy",
+      "Ivory"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-31/600/800",
+    "gender": "male",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0032",
+    "category": "pants",
+    "name": "Emerald Tailored Trousers",
+    "brand": "Atlas Studio",
+    "price": 108.0,
+    "currency": "USD",
+    "colors": [
+      "Emerald",
+      "Burgundy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-32/600/800",
+    "gender": "female",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0033",
+    "category": "pants",
+    "name": "Crimson Tailored Trousers",
+    "brand": "Blackwood & Vane",
+    "price": 168.3,
+    "currency": "USD",
+    "colors": [
+      "Crimson",
+      "Olive"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-33/600/800",
+    "gender": "unisex",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0034",
+    "category": "pants",
+    "name": "Gold Chino Pants",
+    "brand": "Meridian & Co.",
+    "price": 88.5,
+    "currency": "USD",
+    "colors": [
+      "Gold",
+      "Purple"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-34/600/800",
+    "gender": "female",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0035",
+    "category": "pants",
+    "name": "Charcoal Chino Pants",
+    "brand": "Aurelio",
+    "price": 338.5,
+    "currency": "USD",
+    "colors": [
+      "Charcoal",
+      "Black"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-35/600/800",
+    "gender": "unisex",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0036",
+    "category": "pants",
+    "name": "Ivory Chino Pants",
+    "brand": "Obsidian House",
+    "price": 622.0,
+    "currency": "USD",
+    "colors": [
+      "Ivory",
+      "Navy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-36/600/800",
+    "gender": "male",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0037",
+    "category": "pants",
+    "name": "Burgundy Wide-Leg Pants",
+    "brand": "Ferro Milano",
+    "price": 278.7,
+    "currency": "USD",
+    "colors": [
+      "Burgundy",
+      "Emerald"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-37/600/800",
+    "gender": "unisex",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0038",
+    "category": "pants",
+    "name": "Olive Wide-Leg Pants",
+    "brand": "Maison Vireux",
+    "price": 401.0,
+    "currency": "USD",
+    "colors": [
+      "Olive",
+      "Crimson"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-38/600/800",
+    "gender": "male",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0039",
+    "category": "pants",
+    "name": "Purple Wide-Leg Pants",
+    "brand": "CoreWear",
+    "price": 27.9,
+    "currency": "USD",
+    "colors": [
+      "Purple",
+      "Gold"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-39/600/800",
+    "gender": "female",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0040",
+    "category": "pants",
+    "name": "Black Cargo Pants",
+    "brand": "Casa Lorenzo",
+    "price": 1030.0,
+    "currency": "USD",
+    "colors": [
+      "Black",
+      "Charcoal"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-40/600/800",
+    "gender": "male",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0041",
+    "category": "pants",
+    "name": "Navy Cargo Pants",
+    "brand": "StreetLine",
+    "price": 20.1,
+    "currency": "USD",
+    "colors": [
+      "Navy",
+      "Ivory"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-41/600/800",
+    "gender": "female",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0042",
+    "category": "pants",
+    "name": "Emerald Cargo Pants",
+    "brand": "Norvell",
+    "price": 85.5,
+    "currency": "USD",
+    "colors": [
+      "Emerald",
+      "Burgundy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-42/600/800",
+    "gender": "unisex",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0043",
+    "category": "pants",
+    "name": "Crimson Pleated Trousers",
+    "brand": "Uniform Basics",
+    "price": 42.3,
+    "currency": "USD",
+    "colors": [
+      "Crimson",
+      "Olive"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-43/600/800",
+    "gender": "female",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0044",
+    "category": "pants",
+    "name": "Gold Pleated Trousers",
+    "brand": "Atlas Studio",
+    "price": 66.0,
+    "currency": "USD",
+    "colors": [
+      "Gold",
+      "Purple"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-44/600/800",
+    "gender": "unisex",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-PAN-0045",
+    "category": "pants",
+    "name": "Charcoal Pleated Trousers",
+    "brand": "Blackwood & Vane",
+    "price": 269.5,
+    "currency": "USD",
+    "colors": [
+      "Charcoal",
+      "Black"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-pants-45/600/800",
+    "gender": "male",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0046",
+    "category": "jeans",
+    "name": "Ivory Slim Fit Jeans",
+    "brand": "Uniform Basics",
+    "price": 15.6,
+    "currency": "USD",
+    "colors": [
+      "Ivory",
+      "Navy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-46/600/800",
+    "gender": "male",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0047",
+    "category": "jeans",
+    "name": "Burgundy Slim Fit Jeans",
+    "brand": "Atlas Studio",
+    "price": 74.25,
+    "currency": "USD",
+    "colors": [
+      "Burgundy",
+      "Emerald"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-47/600/800",
+    "gender": "female",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0048",
+    "category": "jeans",
+    "name": "Olive Slim Fit Jeans",
+    "brand": "Blackwood & Vane",
+    "price": 294.8,
+    "currency": "USD",
+    "colors": [
+      "Olive",
+      "Crimson"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-48/600/800",
+    "gender": "unisex",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0049",
+    "category": "jeans",
+    "name": "Purple Straight Fit Jeans",
+    "brand": "Meridian & Co.",
+    "price": 54.75,
+    "currency": "USD",
+    "colors": [
+      "Purple",
+      "Gold"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-49/600/800",
+    "gender": "female",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0050",
+    "category": "jeans",
+    "name": "Black Straight Fit Jeans",
+    "brand": "Aurelio",
+    "price": 235.0,
+    "currency": "USD",
+    "colors": [
+      "Black",
+      "Charcoal"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-50/600/800",
+    "gender": "unisex",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0051",
+    "category": "jeans",
+    "name": "Navy Straight Fit Jeans",
+    "brand": "Obsidian House",
+    "price": 1089.5,
+    "currency": "USD",
+    "colors": [
+      "Navy",
+      "Ivory"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-51/600/800",
+    "gender": "male",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0052",
+    "category": "jeans",
+    "name": "Emerald Bootcut Jeans",
+    "brand": "Ferro Milano",
+    "price": 175.2,
+    "currency": "USD",
+    "colors": [
+      "Emerald",
+      "Burgundy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-52/600/800",
+    "gender": "unisex",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0053",
+    "category": "jeans",
+    "name": "Crimson Bootcut Jeans",
+    "brand": "Maison Vireux",
+    "price": 868.5,
+    "currency": "USD",
+    "colors": [
+      "Crimson",
+      "Olive"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-53/600/800",
+    "gender": "male",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0054",
+    "category": "jeans",
+    "name": "Gold Bootcut Jeans",
+    "brand": "CoreWear",
+    "price": 44.4,
+    "currency": "USD",
+    "colors": [
+      "Gold",
+      "Purple"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-54/600/800",
+    "gender": "female",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0055",
+    "category": "jeans",
+    "name": "Charcoal Skinny Jeans",
+    "brand": "Casa Lorenzo",
+    "price": 647.5,
+    "currency": "USD",
+    "colors": [
+      "Charcoal",
+      "Black"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-55/600/800",
+    "gender": "male",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0056",
+    "category": "jeans",
+    "name": "Ivory Skinny Jeans",
+    "brand": "StreetLine",
+    "price": 36.6,
+    "currency": "USD",
+    "colors": [
+      "Ivory",
+      "Navy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-56/600/800",
+    "gender": "female",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0057",
+    "category": "jeans",
+    "name": "Burgundy Skinny Jeans",
+    "brand": "Norvell",
+    "price": 51.75,
+    "currency": "USD",
+    "colors": [
+      "Burgundy",
+      "Emerald"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-57/600/800",
+    "gender": "unisex",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0058",
+    "category": "jeans",
+    "name": "Olive Relaxed Jeans",
+    "brand": "Uniform Basics",
+    "price": 28.8,
+    "currency": "USD",
+    "colors": [
+      "Olive",
+      "Crimson"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-58/600/800",
+    "gender": "female",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0059",
+    "category": "jeans",
+    "name": "Purple Relaxed Jeans",
+    "brand": "Atlas Studio",
+    "price": 107.25,
+    "currency": "USD",
+    "colors": [
+      "Purple",
+      "Gold"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-59/600/800",
+    "gender": "unisex",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JEA-0060",
+    "category": "jeans",
+    "name": "Black Relaxed Jeans",
+    "brand": "Blackwood & Vane",
+    "price": 166.0,
+    "currency": "USD",
+    "colors": [
+      "Black",
+      "Charcoal"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jeans-60/600/800",
+    "gender": "male",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0061",
+    "category": "jackets",
+    "name": "Navy Bomber Jacket",
+    "brand": "Uniform Basics",
+    "price": 32.1,
+    "currency": "USD",
+    "colors": [
+      "Navy",
+      "Ivory"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-61/600/800",
+    "gender": "male",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0062",
+    "category": "jackets",
+    "name": "Emerald Bomber Jacket",
+    "brand": "Atlas Studio",
+    "price": 115.5,
+    "currency": "USD",
+    "colors": [
+      "Emerald",
+      "Burgundy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-62/600/800",
+    "gender": "female",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0063",
+    "category": "jackets",
+    "name": "Crimson Bomber Jacket",
+    "brand": "Blackwood & Vane",
+    "price": 191.3,
+    "currency": "USD",
+    "colors": [
+      "Crimson",
+      "Olive"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-63/600/800",
+    "gender": "unisex",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0064",
+    "category": "jackets",
+    "name": "Gold Blazer",
+    "brand": "Meridian & Co.",
+    "price": 96.0,
+    "currency": "USD",
+    "colors": [
+      "Gold",
+      "Purple"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-64/600/800",
+    "gender": "female",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0065",
+    "category": "jackets",
+    "name": "Charcoal Blazer",
+    "brand": "Aurelio",
+    "price": 131.5,
+    "currency": "USD",
+    "colors": [
+      "Charcoal",
+      "Black"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-65/600/800",
+    "gender": "unisex",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0066",
+    "category": "jackets",
+    "name": "Ivory Blazer",
+    "brand": "Obsidian House",
+    "price": 707.0,
+    "currency": "USD",
+    "colors": [
+      "Ivory",
+      "Navy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-66/600/800",
+    "gender": "male",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0067",
+    "category": "jackets",
+    "name": "Burgundy Denim Jacket",
+    "brand": "Ferro Milano",
+    "price": 301.7,
+    "currency": "USD",
+    "colors": [
+      "Burgundy",
+      "Emerald"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-67/600/800",
+    "gender": "unisex",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0068",
+    "category": "jackets",
+    "name": "Olive Denim Jacket",
+    "brand": "Maison Vireux",
+    "price": 486.0,
+    "currency": "USD",
+    "colors": [
+      "Olive",
+      "Crimson"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-68/600/800",
+    "gender": "male",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0069",
+    "category": "jackets",
+    "name": "Purple Denim Jacket",
+    "brand": "CoreWear",
+    "price": 30.9,
+    "currency": "USD",
+    "colors": [
+      "Purple",
+      "Gold"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-69/600/800",
+    "gender": "female",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0070",
+    "category": "jackets",
+    "name": "Black Leather Jacket",
+    "brand": "Casa Lorenzo",
+    "price": 1115.0,
+    "currency": "USD",
+    "colors": [
+      "Black",
+      "Charcoal"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-70/600/800",
+    "gender": "male",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0071",
+    "category": "jackets",
+    "name": "Navy Leather Jacket",
+    "brand": "StreetLine",
+    "price": 23.1,
+    "currency": "USD",
+    "colors": [
+      "Navy",
+      "Ivory"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-71/600/800",
+    "gender": "female",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0072",
+    "category": "jackets",
+    "name": "Emerald Leather Jacket",
+    "brand": "Norvell",
+    "price": 93.0,
+    "currency": "USD",
+    "colors": [
+      "Emerald",
+      "Burgundy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-72/600/800",
+    "gender": "unisex",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0073",
+    "category": "jackets",
+    "name": "Crimson Trench Coat",
+    "brand": "Uniform Basics",
+    "price": 15.3,
+    "currency": "USD",
+    "colors": [
+      "Crimson",
+      "Olive"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-73/600/800",
+    "gender": "female",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0074",
+    "category": "jackets",
+    "name": "Gold Trench Coat",
+    "brand": "Atlas Studio",
+    "price": 73.5,
+    "currency": "USD",
+    "colors": [
+      "Gold",
+      "Purple"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-74/600/800",
+    "gender": "unisex",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-JAC-0075",
+    "category": "jackets",
+    "name": "Charcoal Trench Coat",
+    "brand": "Blackwood & Vane",
+    "price": 292.5,
+    "currency": "USD",
+    "colors": [
+      "Charcoal",
+      "Black"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-jackets-75/600/800",
+    "gender": "male",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0076",
+    "category": "shoes",
+    "name": "Ivory Chelsea Boots",
+    "brand": "Uniform Basics",
+    "price": 18.6,
+    "currency": "USD",
+    "colors": [
+      "Ivory",
+      "Navy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-76/600/800",
+    "gender": "male",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0077",
+    "category": "shoes",
+    "name": "Burgundy Chelsea Boots",
+    "brand": "Atlas Studio",
+    "price": 81.75,
+    "currency": "USD",
+    "colors": [
+      "Burgundy",
+      "Emerald"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-77/600/800",
+    "gender": "female",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0078",
+    "category": "shoes",
+    "name": "Olive Chelsea Boots",
+    "brand": "Blackwood & Vane",
+    "price": 317.8,
+    "currency": "USD",
+    "colors": [
+      "Olive",
+      "Crimson"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-78/600/800",
+    "gender": "unisex",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0079",
+    "category": "shoes",
+    "name": "Purple Sneakers",
+    "brand": "Meridian & Co.",
+    "price": 62.25,
+    "currency": "USD",
+    "colors": [
+      "Purple",
+      "Gold"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-79/600/800",
+    "gender": "female",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0080",
+    "category": "shoes",
+    "name": "Black Sneakers",
+    "brand": "Aurelio",
+    "price": 258.0,
+    "currency": "USD",
+    "colors": [
+      "Black",
+      "Charcoal"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-80/600/800",
+    "gender": "unisex",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0081",
+    "category": "shoes",
+    "name": "Navy Sneakers",
+    "brand": "Obsidian House",
+    "price": 1174.5,
+    "currency": "USD",
+    "colors": [
+      "Navy",
+      "Ivory"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-81/600/800",
+    "gender": "male",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0082",
+    "category": "shoes",
+    "name": "Emerald Oxford Shoes",
+    "brand": "Ferro Milano",
+    "price": 198.2,
+    "currency": "USD",
+    "colors": [
+      "Emerald",
+      "Burgundy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-82/600/800",
+    "gender": "unisex",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0083",
+    "category": "shoes",
+    "name": "Crimson Oxford Shoes",
+    "brand": "Maison Vireux",
+    "price": 953.5,
+    "currency": "USD",
+    "colors": [
+      "Crimson",
+      "Olive"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-83/600/800",
+    "gender": "male",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0084",
+    "category": "shoes",
+    "name": "Gold Oxford Shoes",
+    "brand": "CoreWear",
+    "price": 17.4,
+    "currency": "USD",
+    "colors": [
+      "Gold",
+      "Purple"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-84/600/800",
+    "gender": "female",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0085",
+    "category": "shoes",
+    "name": "Charcoal Loafers",
+    "brand": "Casa Lorenzo",
+    "price": 732.5,
+    "currency": "USD",
+    "colors": [
+      "Charcoal",
+      "Black"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-85/600/800",
+    "gender": "male",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0086",
+    "category": "shoes",
+    "name": "Ivory Loafers",
+    "brand": "StreetLine",
+    "price": 39.6,
+    "currency": "USD",
+    "colors": [
+      "Ivory",
+      "Navy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-86/600/800",
+    "gender": "female",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0087",
+    "category": "shoes",
+    "name": "Burgundy Loafers",
+    "brand": "Norvell",
+    "price": 59.25,
+    "currency": "USD",
+    "colors": [
+      "Burgundy",
+      "Emerald"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-87/600/800",
+    "gender": "unisex",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0088",
+    "category": "shoes",
+    "name": "Olive Ankle Boots",
+    "brand": "Uniform Basics",
+    "price": 31.8,
+    "currency": "USD",
+    "colors": [
+      "Olive",
+      "Crimson"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-88/600/800",
+    "gender": "female",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0089",
+    "category": "shoes",
+    "name": "Purple Ankle Boots",
+    "brand": "Atlas Studio",
+    "price": 114.75,
+    "currency": "USD",
+    "colors": [
+      "Purple",
+      "Gold"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-89/600/800",
+    "gender": "unisex",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-SHO-0090",
+    "category": "shoes",
+    "name": "Black Ankle Boots",
+    "brand": "Blackwood & Vane",
+    "price": 189.0,
+    "currency": "USD",
+    "colors": [
+      "Black",
+      "Charcoal"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-shoes-90/600/800",
+    "gender": "male",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0091",
+    "category": "watches",
+    "name": "Navy Minimalist Watch",
+    "brand": "Uniform Basics",
+    "price": 35.1,
+    "currency": "USD",
+    "colors": [
+      "Navy",
+      "Ivory"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-91/600/800",
+    "gender": "male",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0092",
+    "category": "watches",
+    "name": "Emerald Minimalist Watch",
+    "brand": "Atlas Studio",
+    "price": 48.0,
+    "currency": "USD",
+    "colors": [
+      "Emerald",
+      "Burgundy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-92/600/800",
+    "gender": "female",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0093",
+    "category": "watches",
+    "name": "Crimson Minimalist Watch",
+    "brand": "Blackwood & Vane",
+    "price": 214.3,
+    "currency": "USD",
+    "colors": [
+      "Crimson",
+      "Olive"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-93/600/800",
+    "gender": "unisex",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0094",
+    "category": "watches",
+    "name": "Gold Chronograph Watch",
+    "brand": "Meridian & Co.",
+    "price": 103.5,
+    "currency": "USD",
+    "colors": [
+      "Gold",
+      "Purple"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-94/600/800",
+    "gender": "female",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0095",
+    "category": "watches",
+    "name": "Charcoal Chronograph Watch",
+    "brand": "Aurelio",
+    "price": 154.5,
+    "currency": "USD",
+    "colors": [
+      "Charcoal",
+      "Black"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-95/600/800",
+    "gender": "unisex",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0096",
+    "category": "watches",
+    "name": "Ivory Chronograph Watch",
+    "brand": "Obsidian House",
+    "price": 792.0,
+    "currency": "USD",
+    "colors": [
+      "Ivory",
+      "Navy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-96/600/800",
+    "gender": "male",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0097",
+    "category": "watches",
+    "name": "Burgundy Dress Watch",
+    "brand": "Ferro Milano",
+    "price": 324.7,
+    "currency": "USD",
+    "colors": [
+      "Burgundy",
+      "Emerald"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-97/600/800",
+    "gender": "unisex",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0098",
+    "category": "watches",
+    "name": "Olive Dress Watch",
+    "brand": "Maison Vireux",
+    "price": 571.0,
+    "currency": "USD",
+    "colors": [
+      "Olive",
+      "Crimson"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-98/600/800",
+    "gender": "male",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0099",
+    "category": "watches",
+    "name": "Purple Dress Watch",
+    "brand": "CoreWear",
+    "price": 33.9,
+    "currency": "USD",
+    "colors": [
+      "Purple",
+      "Gold"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-99/600/800",
+    "gender": "female",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0100",
+    "category": "watches",
+    "name": "Black Sport Watch",
+    "brand": "Casa Lorenzo",
+    "price": 350.0,
+    "currency": "USD",
+    "colors": [
+      "Black",
+      "Charcoal"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-100/600/800",
+    "gender": "male",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0101",
+    "category": "watches",
+    "name": "Navy Sport Watch",
+    "brand": "StreetLine",
+    "price": 26.1,
+    "currency": "USD",
+    "colors": [
+      "Navy",
+      "Ivory"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-101/600/800",
+    "gender": "female",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0102",
+    "category": "watches",
+    "name": "Emerald Sport Watch",
+    "brand": "Norvell",
+    "price": 100.5,
+    "currency": "USD",
+    "colors": [
+      "Emerald",
+      "Burgundy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-102/600/800",
+    "gender": "unisex",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0103",
+    "category": "watches",
+    "name": "Crimson Smart Watch",
+    "brand": "Uniform Basics",
+    "price": 18.3,
+    "currency": "USD",
+    "colors": [
+      "Crimson",
+      "Olive"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-103/600/800",
+    "gender": "female",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0104",
+    "category": "watches",
+    "name": "Gold Smart Watch",
+    "brand": "Atlas Studio",
+    "price": 81.0,
+    "currency": "USD",
+    "colors": [
+      "Gold",
+      "Purple"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-104/600/800",
+    "gender": "unisex",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-WAT-0105",
+    "category": "watches",
+    "name": "Charcoal Smart Watch",
+    "brand": "Blackwood & Vane",
+    "price": 315.5,
+    "currency": "USD",
+    "colors": [
+      "Charcoal",
+      "Black"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-watches-105/600/800",
+    "gender": "male",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0106",
+    "category": "belts",
+    "name": "Ivory Leather Belt",
+    "brand": "Uniform Basics",
+    "price": 21.6,
+    "currency": "USD",
+    "colors": [
+      "Ivory",
+      "Navy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-106/600/800",
+    "gender": "male",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0107",
+    "category": "belts",
+    "name": "Burgundy Leather Belt",
+    "brand": "Atlas Studio",
+    "price": 89.25,
+    "currency": "USD",
+    "colors": [
+      "Burgundy",
+      "Emerald"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-107/600/800",
+    "gender": "female",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0108",
+    "category": "belts",
+    "name": "Olive Leather Belt",
+    "brand": "Blackwood & Vane",
+    "price": 340.8,
+    "currency": "USD",
+    "colors": [
+      "Olive",
+      "Crimson"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-108/600/800",
+    "gender": "unisex",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0109",
+    "category": "belts",
+    "name": "Purple Reversible Belt",
+    "brand": "Meridian & Co.",
+    "price": 69.75,
+    "currency": "USD",
+    "colors": [
+      "Purple",
+      "Gold"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-109/600/800",
+    "gender": "female",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0110",
+    "category": "belts",
+    "name": "Black Reversible Belt",
+    "brand": "Aurelio",
+    "price": 281.0,
+    "currency": "USD",
+    "colors": [
+      "Black",
+      "Charcoal"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-110/600/800",
+    "gender": "unisex",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0111",
+    "category": "belts",
+    "name": "Navy Reversible Belt",
+    "brand": "Obsidian House",
+    "price": 409.5,
+    "currency": "USD",
+    "colors": [
+      "Navy",
+      "Ivory"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-111/600/800",
+    "gender": "male",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0112",
+    "category": "belts",
+    "name": "Emerald Woven Belt",
+    "brand": "Ferro Milano",
+    "price": 221.2,
+    "currency": "USD",
+    "colors": [
+      "Emerald",
+      "Burgundy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-112/600/800",
+    "gender": "unisex",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0113",
+    "category": "belts",
+    "name": "Crimson Woven Belt",
+    "brand": "Maison Vireux",
+    "price": 1038.5,
+    "currency": "USD",
+    "colors": [
+      "Crimson",
+      "Olive"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-113/600/800",
+    "gender": "male",
+    "styles": [
+      "streetwear",
+      "edgy"
+    ],
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0114",
+    "category": "belts",
+    "name": "Gold Woven Belt",
+    "brand": "CoreWear",
+    "price": 20.4,
+    "currency": "USD",
+    "colors": [
+      "Gold",
+      "Purple"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-114/600/800",
+    "gender": "female",
+    "styles": [
+      "classic",
+      "romantic"
+    ],
+    "occasions": [
+      "business",
+      "wedding"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "square",
+      "triangle"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0115",
+    "category": "belts",
+    "name": "Charcoal Canvas Belt",
+    "brand": "Casa Lorenzo",
+    "price": 817.5,
+    "currency": "USD",
+    "colors": [
+      "Charcoal",
+      "Black"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-115/600/800",
+    "gender": "male",
+    "styles": [
+      "bohemian",
+      "sporty"
+    ],
+    "occasions": [
+      "party",
+      "date_night"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "luxury",
+    "face_shape_fit": [
+      "heart",
+      "oval"
+    ],
+    "body_shape_fit": [
+      "hourglass",
+      "inverted_triangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0116",
+    "category": "belts",
+    "name": "Ivory Canvas Belt",
+    "brand": "StreetLine",
+    "price": 42.6,
+    "currency": "USD",
+    "colors": [
+      "Ivory",
+      "Navy"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-116/600/800",
+    "gender": "female",
+    "styles": [
+      "edgy",
+      "glamorous"
+    ],
+    "occasions": [
+      "wedding",
+      "sport"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "diamond",
+      "round"
+    ],
+    "body_shape_fit": [
+      "pear",
+      "apple"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0117",
+    "category": "belts",
+    "name": "Burgundy Canvas Belt",
+    "brand": "Norvell",
+    "price": 66.75,
+    "currency": "USD",
+    "colors": [
+      "Burgundy",
+      "Emerald"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-117/600/800",
+    "gender": "unisex",
+    "styles": [
+      "romantic",
+      "minimalist"
+    ],
+    "occasions": [
+      "date_night",
+      "travel"
+    ],
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "oblong",
+      "square"
+    ],
+    "body_shape_fit": [
+      "inverted_triangle",
+      "trapezoid"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0118",
+    "category": "belts",
+    "name": "Olive Chain Belt",
+    "brand": "Uniform Basics",
+    "price": 34.8,
+    "currency": "USD",
+    "colors": [
+      "Olive",
+      "Crimson"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-118/600/800",
+    "gender": "female",
+    "styles": [
+      "sporty",
+      "streetwear"
+    ],
+    "occasions": [
+      "sport",
+      "casual"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "budget_tier": "budget",
+    "face_shape_fit": [
+      "triangle",
+      "heart"
+    ],
+    "body_shape_fit": [
+      "apple",
+      "rectangle"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0119",
+    "category": "belts",
+    "name": "Purple Chain Belt",
+    "brand": "Atlas Studio",
+    "price": 47.25,
+    "currency": "USD",
+    "colors": [
+      "Purple",
+      "Gold"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-119/600/800",
+    "gender": "unisex",
+    "styles": [
+      "glamorous",
+      "classic"
+    ],
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "budget_tier": "mid_range",
+    "face_shape_fit": [
+      "oval",
+      "diamond"
+    ],
+    "body_shape_fit": [
+      "trapezoid",
+      "hourglass"
+    ],
+    "active": true
+  },
+  {
+    "sku": "VS-BEL-0120",
+    "category": "belts",
+    "name": "Black Chain Belt",
+    "brand": "Blackwood & Vane",
+    "price": 212.0,
+    "currency": "USD",
+    "colors": [
+      "Black",
+      "Charcoal"
+    ],
+    "image_url": "https://picsum.photos/seed/visionstyle-belts-120/600/800",
+    "gender": "male",
+    "styles": [
+      "minimalist",
+      "bohemian"
+    ],
+    "occasions": [
+      "casual",
+      "business"
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "budget_tier": "premium",
+    "face_shape_fit": [
+      "round",
+      "oblong"
+    ],
+    "body_shape_fit": [
+      "rectangle",
+      "pear"
+    ],
+    "active": true
+  }
+]
